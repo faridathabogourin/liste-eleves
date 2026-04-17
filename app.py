@@ -6,8 +6,9 @@ app = Flask(__name__)
 eleves = [
     {"prenom": "Loïc", "nom": "Dumont", "github": "loic-prof"},
     {"prenom": "Alake Faridath", "nom": "ABOGOURIN", "github": "faridathabogourin", "groupe": "Gr1"},
+    {"prenom": "Nora", "nom": "Boukal", "github": "loic-prof"},
 ]
-
+    
 TEMPLATE = """
 <!DOCTYPE html>
 <html lang="fr">
